@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+     font-family: "Young Serif", serif;
+}
+
+.section-one ,.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.image{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+}
+
+.section-one, .footer-form{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.section-one__image, .section-two__image, .section-three__image, .section-four__image {
+    width: 200px;
+    display: inline-block;
+    border-top: 2px;
+    border-right: 2px;
+    border-left: 2px;
+    border-bottom: 2px;
+    border-style: solid;
+    vertical-align: top;
+    padding: 30px;
+}
+
+.section-one__order, .section-two__order, .section-three__order, .section-four__order {
+    text-decoration: none;
+    color: orange;
+    background-color: black;
+    display: inline;
+    padding: 2px;
+    cursor:grab;
+}
+.section-one__order:hover, .section-two__order:hover, .section-three__order:hover, .section-four__order:hover {
+    color: white;
+    background-color: orange;
+    padding: 2px;
+}
+
+.container{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer-form{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.footer{
+    text-align: center;
+}
+
+.footer table{
+    display: inline-block;
+}
+
+.submit{
+    text-decoration: none;
+    color: orange;
+    background-color: black;
+    display: inline;
+    padding: 2px;
+    cursor:grab;
+    width: 80px;
+}
+
+.submit:hover{
+    color: white;
+    background-color: orange;
+    padding: 2px;
+    
+}
+.section-one__navbar a{
+    color: orange;
+    padding: 10px;
+
+}
+
+
+
